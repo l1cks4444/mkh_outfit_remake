@@ -3,7 +3,7 @@ local ischanging = false
 
 
 RegisterNetEvent('esx_changeoutfit:start', function()
-    print("Start")
+    print("start")
 
     if ischanging then return end
     ischanging = true
